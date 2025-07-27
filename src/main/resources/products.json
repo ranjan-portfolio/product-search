@@ -1,0 +1,902 @@
+[
+  {
+    "id": "1",
+    "productName": "Xiaomi Phone-104",
+    "productDescription": "Development say quality throughout beautiful instead ahead despite measure ago.",
+    "brandName": "OnePlus",
+    "price": 363.97,
+    "category": "Phone",
+    "quantityAvailable": 1573
+  },
+  {
+    "id": "2",
+    "productName": "Google Phone-386",
+    "productDescription": "Last everything thank serve civil institution everyone democratic shake bill.",
+    "brandName": "Apple",
+    "price": 341.35,
+    "category": "Phone",
+    "quantityAvailable": 431
+  },
+  {
+    "id": "3",
+    "productName": "Xiaomi Phone-615",
+    "productDescription": "Page southern role movie win her need stop peace technology officer relate.",
+    "brandName": "Apple",
+    "price": 882.91,
+    "category": "Phone",
+    "quantityAvailable": 340
+  },
+  {
+    "id": "4",
+    "productName": "Apple Phone-034",
+    "productDescription": "Talk term herself law street class great prove.",
+    "brandName": "Google",
+    "price": 807.52,
+    "category": "Phone",
+    "quantityAvailable": 1021
+  },
+  {
+    "id": "5",
+    "productName": "OnePlus Phone-192",
+    "productDescription": "Rock clear here writer policy news range successful simply director allow firm environment decision wall.",
+    "brandName": "Apple",
+    "price": 1261.05,
+    "category": "Phone",
+    "quantityAvailable": 1430
+  },
+  {
+    "id": "6",
+    "productName": "OnePlus Phone-537",
+    "productDescription": "Those poor central cause seat much section investment on gun young catch management.",
+    "brandName": "Samsung",
+    "price": 459.8,
+    "category": "Phone",
+    "quantityAvailable": 1777
+  },
+  {
+    "id": "7",
+    "productName": "OnePlus Phone-012",
+    "productDescription": "Civil quite others his other life edge network wall quite boy those seem shoulder future fall.",
+    "brandName": "OnePlus",
+    "price": 861.95,
+    "category": "Phone",
+    "quantityAvailable": 608
+  },
+  {
+    "id": "8",
+    "productName": "Google Phone-270",
+    "productDescription": "Will seven medical blood personal success medical current hear claim well.",
+    "brandName": "Samsung",
+    "price": 597.97,
+    "category": "Phone",
+    "quantityAvailable": 560
+  },
+  {
+    "id": "9",
+    "productName": "Samsung Phone-809",
+    "productDescription": "Major born guy world southern dream drive note bad rule staff within.",
+    "brandName": "Xiaomi",
+    "price": 1284.0,
+    "category": "Phone",
+    "quantityAvailable": 1856
+  },
+  {
+    "id": "10",
+    "productName": "OnePlus Phone-822",
+    "productDescription": "Water close month parent who up sense ready require human public health tonight later.",
+    "brandName": "Xiaomi",
+    "price": 1280.01,
+    "category": "Phone",
+    "quantityAvailable": 512
+  },
+  {
+    "id": "11",
+    "productName": "Xiaomi Phone-331",
+    "productDescription": "Again network open according remain arrive attack all form method everything magazine.",
+    "brandName": "OnePlus",
+    "price": 829.53,
+    "category": "Phone",
+    "quantityAvailable": 621
+  },
+  {
+    "id": "12",
+    "productName": "Xiaomi Phone-829",
+    "productDescription": "Line six space couple best issue interest level rock pull worker better I fund technology.",
+    "brandName": "Samsung",
+    "price": 979.21,
+    "category": "Phone",
+    "quantityAvailable": 1277
+  },
+  {
+    "id": "13",
+    "productName": "Samsung Phone-333",
+    "productDescription": "Large instead everything economic type kitchen technology nearly anything yourself structure why unit support coach.",
+    "brandName": "Xiaomi",
+    "price": 626.42,
+    "category": "Phone",
+    "quantityAvailable": 225
+  },
+  {
+    "id": "14",
+    "productName": "Google Phone-773",
+    "productDescription": "Total clearly able hospital unit size expect recent room situation product main couple.",
+    "brandName": "Samsung",
+    "price": 783.89,
+    "category": "Phone",
+    "quantityAvailable": 512
+  },
+  {
+    "id": "15",
+    "productName": "Google Phone-309",
+    "productDescription": "Article finish anyone live try most arm meet surface attention attack technology identify walk now.",
+    "brandName": "Google",
+    "price": 1423.7,
+    "category": "Phone",
+    "quantityAvailable": 232
+  },
+  {
+    "id": "16",
+    "productName": "Apple Phone-990",
+    "productDescription": "Bank price north first end prove fire enter capital population lead upon very act perform none.",
+    "brandName": "Samsung",
+    "price": 422.47,
+    "category": "Phone",
+    "quantityAvailable": 390
+  },
+  {
+    "id": "17",
+    "productName": "Samsung Phone-118",
+    "productDescription": "Media car give attention each expect just myself few worker.",
+    "brandName": "Xiaomi",
+    "price": 424.59,
+    "category": "Phone",
+    "quantityAvailable": 241
+  },
+  {
+    "id": "18",
+    "productName": "Samsung Phone-808",
+    "productDescription": "Use billion there enough threat score choice example decision garden reach.",
+    "brandName": "OnePlus",
+    "price": 346.17,
+    "category": "Phone",
+    "quantityAvailable": 1969
+  },
+  {
+    "id": "19",
+    "productName": "Samsung Phone-487",
+    "productDescription": "Town suffer begin interest everybody about side PM energy scientist necessary.",
+    "brandName": "Google",
+    "price": 1101.3,
+    "category": "Phone",
+    "quantityAvailable": 105
+  },
+  {
+    "id": "20",
+    "productName": "Samsung Phone-680",
+    "productDescription": "Away third tough nation strong old challenge camera.",
+    "brandName": "Google",
+    "price": 1400.15,
+    "category": "Phone",
+    "quantityAvailable": 1053
+  },
+  {
+    "id": "21",
+    "productName": "Google Phone-450",
+    "productDescription": "Decide economic bill sister this image per choice upon ten wish specific.",
+    "brandName": "Samsung",
+    "price": 907.89,
+    "category": "Phone",
+    "quantityAvailable": 1935
+  },
+  {
+    "id": "22",
+    "productName": "OnePlus Phone-602",
+    "productDescription": "Site in prove same easy city red him although likely current truth.",
+    "brandName": "OnePlus",
+    "price": 1406.73,
+    "category": "Phone",
+    "quantityAvailable": 1022
+  },
+  {
+    "id": "23",
+    "productName": "OnePlus Phone-543",
+    "productDescription": "Age cover foreign ten whom evidence political hundred wonder movie.",
+    "brandName": "Xiaomi",
+    "price": 1387.47,
+    "category": "Phone",
+    "quantityAvailable": 1053
+  },
+  {
+    "id": "24",
+    "productName": "Apple Phone-014",
+    "productDescription": "Oil worker although others generation skill job worker break.",
+    "brandName": "Apple",
+    "price": 584.26,
+    "category": "Phone",
+    "quantityAvailable": 869
+  },
+  {
+    "id": "25",
+    "productName": "Apple Phone-934",
+    "productDescription": "Remember ability understand Mrs rest score provide.",
+    "brandName": "Apple",
+    "price": 1407.85,
+    "category": "Phone",
+    "quantityAvailable": 948
+  },
+  {
+    "id": "26",
+    "productName": "Samsung Phone-561",
+    "productDescription": "Perhaps professional by tonight medical project for recent never court professor here.",
+    "brandName": "OnePlus",
+    "price": 854.51,
+    "category": "Phone",
+    "quantityAvailable": 1403
+  },
+  {
+    "id": "27",
+    "productName": "Samsung Phone-299",
+    "productDescription": "Image street fight decision size parent focus kid put memory soldier.",
+    "brandName": "Samsung",
+    "price": 1358.97,
+    "category": "Phone",
+    "quantityAvailable": 1664
+  },
+  {
+    "id": "28",
+    "productName": "Samsung Phone-214",
+    "productDescription": "Professional people behavior weight dog financial southern challenge animal worker particularly shoulder lay though offer.",
+    "brandName": "Apple",
+    "price": 522.86,
+    "category": "Phone",
+    "quantityAvailable": 1067
+  },
+  {
+    "id": "29",
+    "productName": "OnePlus Phone-676",
+    "productDescription": "Challenge reach throughout team those sing despite sound receive let.",
+    "brandName": "Xiaomi",
+    "price": 979.7,
+    "category": "Phone",
+    "quantityAvailable": 348
+  },
+  {
+    "id": "30",
+    "productName": "Samsung Phone-831",
+    "productDescription": "Card let most next fish sense kind spring throughout interview trade knowledge city technology.",
+    "brandName": "Google",
+    "price": 1450.57,
+    "category": "Phone",
+    "quantityAvailable": 1332
+  },
+  {
+    "id": "31",
+    "productName": "Samsung Phone-743",
+    "productDescription": "She miss phone ever back experience even floor music catch discuss.",
+    "brandName": "Xiaomi",
+    "price": 1468.77,
+    "category": "Phone",
+    "quantityAvailable": 1896
+  },
+  {
+    "id": "32",
+    "productName": "Xiaomi Phone-231",
+    "productDescription": "Imagine my indeed deal information toward once receive task she herself accept goal.",
+    "brandName": "Apple",
+    "price": 946.57,
+    "category": "Phone",
+    "quantityAvailable": 65
+  },
+  {
+    "id": "33",
+    "productName": "Samsung Phone-668",
+    "productDescription": "Son today major event magazine home protect something right subject try wonder move trade option.",
+    "brandName": "Xiaomi",
+    "price": 460.14,
+    "category": "Phone",
+    "quantityAvailable": 1164
+  },
+  {
+    "id": "34",
+    "productName": "Samsung Phone-016",
+    "productDescription": "Term consider employee force lawyer front they everything week.",
+    "brandName": "Apple",
+    "price": 516.45,
+    "category": "Phone",
+    "quantityAvailable": 990
+  },
+  {
+    "id": "35",
+    "productName": "Apple Phone-641",
+    "productDescription": "Affect much yourself glass practice sit prepare senior wear current after charge call prove.",
+    "brandName": "Samsung",
+    "price": 1294.89,
+    "category": "Phone",
+    "quantityAvailable": 63
+  },
+  {
+    "id": "36",
+    "productName": "Samsung Phone-937",
+    "productDescription": "Short cold parent security boy standard who blue agent find quality.",
+    "brandName": "Apple",
+    "price": 1177.79,
+    "category": "Phone",
+    "quantityAvailable": 368
+  },
+  {
+    "id": "37",
+    "productName": "OnePlus Phone-663",
+    "productDescription": "Option store drug recent feeling range south someone.",
+    "brandName": "OnePlus",
+    "price": 1285.79,
+    "category": "Phone",
+    "quantityAvailable": 277
+  },
+  {
+    "id": "38",
+    "productName": "Google Phone-905",
+    "productDescription": "Into have media game support state black whether player stock religious itself safe whole establish.",
+    "brandName": "OnePlus",
+    "price": 1494.77,
+    "category": "Phone",
+    "quantityAvailable": 878
+  },
+  {
+    "id": "39",
+    "productName": "OnePlus Phone-877",
+    "productDescription": "Stay or focus early various everything late seek now property from management foot.",
+    "brandName": "Xiaomi",
+    "price": 945.81,
+    "category": "Phone",
+    "quantityAvailable": 1438
+  },
+  {
+    "id": "40",
+    "productName": "Apple Phone-735",
+    "productDescription": "Future they red everybody act way beat result major serve real.",
+    "brandName": "Apple",
+    "price": 361.6,
+    "category": "Phone",
+    "quantityAvailable": 167
+  },
+  {
+    "id": "41",
+    "productName": "OnePlus Phone-770",
+    "productDescription": "Family identify during professional hard network gas you.",
+    "brandName": "Xiaomi",
+    "price": 1203.82,
+    "category": "Phone",
+    "quantityAvailable": 1866
+  },
+  {
+    "id": "42",
+    "productName": "Google Phone-855",
+    "productDescription": "Even edge building court build movie several continue describe machine right with modern executive.",
+    "brandName": "Apple",
+    "price": 950.27,
+    "category": "Phone",
+    "quantityAvailable": 440
+  },
+  {
+    "id": "43",
+    "productName": "Samsung Phone-134",
+    "productDescription": "Guess few remain call animal approach factor want point sell.",
+    "brandName": "Samsung",
+    "price": 1308.18,
+    "category": "Phone",
+    "quantityAvailable": 1499
+  },
+  {
+    "id": "44",
+    "productName": "Apple Phone-109",
+    "productDescription": "Light key continue anything wait local state husband available picture approach.",
+    "brandName": "Xiaomi",
+    "price": 1458.45,
+    "category": "Phone",
+    "quantityAvailable": 136
+  },
+  {
+    "id": "45",
+    "productName": "Xiaomi Phone-294",
+    "productDescription": "Yes budget share paper so difficult mission late.",
+    "brandName": "OnePlus",
+    "price": 659.52,
+    "category": "Phone",
+    "quantityAvailable": 667
+  },
+  {
+    "id": "46",
+    "productName": "OnePlus Phone-749",
+    "productDescription": "Figure perform participant science way debate decision produce church community avoid able late.",
+    "brandName": "Apple",
+    "price": 1465.71,
+    "category": "Phone",
+    "quantityAvailable": 1367
+  },
+  {
+    "id": "47",
+    "productName": "Apple Phone-974",
+    "productDescription": "Discuss religious reflect law reach under skin.",
+    "brandName": "OnePlus",
+    "price": 542.49,
+    "category": "Phone",
+    "quantityAvailable": 1353
+  },
+  {
+    "id": "48",
+    "productName": "Samsung Phone-936",
+    "productDescription": "Name positive training step author coach film see.",
+    "brandName": "Xiaomi",
+    "price": 1164.09,
+    "category": "Phone",
+    "quantityAvailable": 594
+  },
+  {
+    "id": "49",
+    "productName": "Xiaomi Phone-947",
+    "productDescription": "Light fight I evening music just our threat same.",
+    "brandName": "Apple",
+    "price": 689.61,
+    "category": "Phone",
+    "quantityAvailable": 797
+  },
+  {
+    "id": "50",
+    "productName": "OnePlus Phone-940",
+    "productDescription": "Director purpose team onto again share start office.",
+    "brandName": "Xiaomi",
+    "price": 553.74,
+    "category": "Phone",
+    "quantityAvailable": 1845
+  },
+  {
+    "id": "51",
+    "productName": "Xiaomi Phone-278",
+    "productDescription": "Trouble consider one play man before girl four prove tax form really explain.",
+    "brandName": "Samsung",
+    "price": 314.93,
+    "category": "Phone",
+    "quantityAvailable": 467
+  },
+  {
+    "id": "52",
+    "productName": "Google Phone-680",
+    "productDescription": "Because education break significant ten stay ability thank left approach million performance material kind.",
+    "brandName": "Samsung",
+    "price": 1108.12,
+    "category": "Phone",
+    "quantityAvailable": 606
+  },
+  {
+    "id": "53",
+    "productName": "OnePlus Phone-034",
+    "productDescription": "Capital explain thing machine ahead picture son report financial add impact different success box water.",
+    "brandName": "Apple",
+    "price": 1362.16,
+    "category": "Phone",
+    "quantityAvailable": 1469
+  },
+  {
+    "id": "54",
+    "productName": "Google Phone-274",
+    "productDescription": "Relate indeed lot line lead certain course out second carry attorney significant take future skin.",
+    "brandName": "Google",
+    "price": 538.99,
+    "category": "Phone",
+    "quantityAvailable": 579
+  },
+  {
+    "id": "55",
+    "productName": "Xiaomi Phone-404",
+    "productDescription": "Study oil process tend land machine forward several help usually thank.",
+    "brandName": "Google",
+    "price": 1234.71,
+    "category": "Phone",
+    "quantityAvailable": 1744
+  },
+  {
+    "id": "56",
+    "productName": "Xiaomi Phone-396",
+    "productDescription": "Task improve fish list tree high write society present charge.",
+    "brandName": "Samsung",
+    "price": 532.61,
+    "category": "Phone",
+    "quantityAvailable": 1120
+  },
+  {
+    "id": "57",
+    "productName": "Google Phone-028",
+    "productDescription": "Forward beyond suddenly between treat address century that wide avoid sit enter perhaps however bag forget.",
+    "brandName": "Xiaomi",
+    "price": 1169.8,
+    "category": "Phone",
+    "quantityAvailable": 1459
+  },
+  {
+    "id": "58",
+    "productName": "Xiaomi Phone-865",
+    "productDescription": "Responsibility service their along attention piece TV young section its better plant their kitchen really tough.",
+    "brandName": "Google",
+    "price": 1233.08,
+    "category": "Phone",
+    "quantityAvailable": 524
+  },
+  {
+    "id": "59",
+    "productName": "Samsung Phone-050",
+    "productDescription": "Grow issue each include radio conference company participant him raise marriage.",
+    "brandName": "OnePlus",
+    "price": 542.11,
+    "category": "Phone",
+    "quantityAvailable": 1603
+  },
+  {
+    "id": "60",
+    "productName": "Samsung Phone-923",
+    "productDescription": "Point least project together let explain national available war write federal while real lead.",
+    "brandName": "Apple",
+    "price": 1435.32,
+    "category": "Phone",
+    "quantityAvailable": 1278
+  },
+  {
+    "id": "61",
+    "productName": "Samsung Phone-436",
+    "productDescription": "Blood high grow fast recognize against stop how account ten sing wind treat seat.",
+    "brandName": "Samsung",
+    "price": 1222.9,
+    "category": "Phone",
+    "quantityAvailable": 977
+  },
+  {
+    "id": "62",
+    "productName": "OnePlus Phone-439",
+    "productDescription": "Despite couple economy sense should race carry best physical always small almost.",
+    "brandName": "Google",
+    "price": 1242.39,
+    "category": "Phone",
+    "quantityAvailable": 1232
+  },
+  {
+    "id": "63",
+    "productName": "Google Phone-521",
+    "productDescription": "Force indeed customer skill theory hand maybe evening clearly trial want.",
+    "brandName": "Apple",
+    "price": 1260.35,
+    "category": "Phone",
+    "quantityAvailable": 888
+  },
+  {
+    "id": "64",
+    "productName": "OnePlus Phone-451",
+    "productDescription": "While cell whom team right woman whose source hand so add Mr lawyer pull.",
+    "brandName": "Xiaomi",
+    "price": 1162.11,
+    "category": "Phone",
+    "quantityAvailable": 820
+  },
+  {
+    "id": "65",
+    "productName": "Google Phone-496",
+    "productDescription": "Board doctor agent this no trip determine as statement travel few impact.",
+    "brandName": "OnePlus",
+    "price": 785.42,
+    "category": "Phone",
+    "quantityAvailable": 1212
+  },
+  {
+    "id": "66",
+    "productName": "Xiaomi Phone-200",
+    "productDescription": "You break doctor Mr home he we recent music onto risk.",
+    "brandName": "Google",
+    "price": 1203.19,
+    "category": "Phone",
+    "quantityAvailable": 596
+  },
+  {
+    "id": "67",
+    "productName": "OnePlus Phone-617",
+    "productDescription": "Impact week allow have kitchen wear talk between rate name within grow huge couple business summer.",
+    "brandName": "Apple",
+    "price": 951.83,
+    "category": "Phone",
+    "quantityAvailable": 1340
+  },
+  {
+    "id": "68",
+    "productName": "Apple Phone-713",
+    "productDescription": "Wife anything four writer skin day stop never only spend do similar small other everyone worker.",
+    "brandName": "Xiaomi",
+    "price": 700.62,
+    "category": "Phone",
+    "quantityAvailable": 1106
+  },
+  {
+    "id": "69",
+    "productName": "Google Phone-284",
+    "productDescription": "Body term capital group small open administration enter camera.",
+    "brandName": "Xiaomi",
+    "price": 1234.91,
+    "category": "Phone",
+    "quantityAvailable": 1874
+  },
+  {
+    "id": "70",
+    "productName": "Apple Phone-681",
+    "productDescription": "Live sing message board mean war analysis situation.",
+    "brandName": "Apple",
+    "price": 906.31,
+    "category": "Phone",
+    "quantityAvailable": 850
+  },
+  {
+    "id": "71",
+    "productName": "Apple Phone-847",
+    "productDescription": "Article look husband rather make travel available.",
+    "brandName": "Samsung",
+    "price": 351.34,
+    "category": "Phone",
+    "quantityAvailable": 715
+  },
+  {
+    "id": "72",
+    "productName": "OnePlus Phone-159",
+    "productDescription": "Assume every plan nature foot yes most law painting.",
+    "brandName": "Google",
+    "price": 1294.67,
+    "category": "Phone",
+    "quantityAvailable": 1552
+  },
+  {
+    "id": "73",
+    "productName": "OnePlus Phone-118",
+    "productDescription": "Involve thousand including still human role fine fine effort well.",
+    "brandName": "OnePlus",
+    "price": 1330.44,
+    "category": "Phone",
+    "quantityAvailable": 737
+  },
+  {
+    "id": "74",
+    "productName": "Google Phone-711",
+    "productDescription": "Behavior benefit school speech news only no form.",
+    "brandName": "Samsung",
+    "price": 1010.1,
+    "category": "Phone",
+    "quantityAvailable": 575
+  },
+  {
+    "id": "75",
+    "productName": "Xiaomi Phone-165",
+    "productDescription": "Test return why outside goal official defense prevent difference board suddenly happen several.",
+    "brandName": "OnePlus",
+    "price": 350.44,
+    "category": "Phone",
+    "quantityAvailable": 1401
+  },
+  {
+    "id": "76",
+    "productName": "OnePlus Phone-936",
+    "productDescription": "Window stand party poor ago upon stop environment Congress reflect finally fund accept thank not.",
+    "brandName": "Apple",
+    "price": 554.52,
+    "category": "Phone",
+    "quantityAvailable": 1457
+  },
+  {
+    "id": "77",
+    "productName": "Apple Phone-612",
+    "productDescription": "Begin most heavy law church find food.",
+    "brandName": "Apple",
+    "price": 761.82,
+    "category": "Phone",
+    "quantityAvailable": 268
+  },
+  {
+    "id": "78",
+    "productName": "Apple Phone-991",
+    "productDescription": "Choose senior anyone bank kitchen interest parent.",
+    "brandName": "Google",
+    "price": 1229.64,
+    "category": "Phone",
+    "quantityAvailable": 497
+  },
+  {
+    "id": "79",
+    "productName": "Samsung Phone-643",
+    "productDescription": "Box involve exist question main project animal house out account feeling deep case eight foreign.",
+    "brandName": "Apple",
+    "price": 932.39,
+    "category": "Phone",
+    "quantityAvailable": 1321
+  },
+  {
+    "id": "80",
+    "productName": "Google Phone-076",
+    "productDescription": "Can mouth discover next property government however score job.",
+    "brandName": "Apple",
+    "price": 611.1,
+    "category": "Phone",
+    "quantityAvailable": 1254
+  },
+  {
+    "id": "81",
+    "productName": "OnePlus Phone-715",
+    "productDescription": "Investment identify policy face if whom commercial way least ready gun join black job hundred.",
+    "brandName": "Xiaomi",
+    "price": 786.66,
+    "category": "Phone",
+    "quantityAvailable": 782
+  },
+  {
+    "id": "82",
+    "productName": "OnePlus Phone-164",
+    "productDescription": "Develop single baby plan most create simply go when population challenge bill.",
+    "brandName": "Xiaomi",
+    "price": 1334.38,
+    "category": "Phone",
+    "quantityAvailable": 1442
+  },
+  {
+    "id": "83",
+    "productName": "Google Phone-432",
+    "productDescription": "Check service away week physical less nor often race think poor worry follow wife firm key.",
+    "brandName": "Apple",
+    "price": 1005.76,
+    "category": "Phone",
+    "quantityAvailable": 193
+  },
+  {
+    "id": "84",
+    "productName": "OnePlus Phone-774",
+    "productDescription": "Option goal avoid left also hard expert popular within bed order.",
+    "brandName": "Google",
+    "price": 996.06,
+    "category": "Phone",
+    "quantityAvailable": 126
+  },
+  {
+    "id": "85",
+    "productName": "Apple Phone-679",
+    "productDescription": "West school American training occur could painting may whatever late specific study word base position.",
+    "brandName": "Samsung",
+    "price": 376.24,
+    "category": "Phone",
+    "quantityAvailable": 1723
+  },
+  {
+    "id": "86",
+    "productName": "Samsung Phone-037",
+    "productDescription": "Model particular hair truth hold simple quickly appear piece free form newspaper hit.",
+    "brandName": "Apple",
+    "price": 544.33,
+    "category": "Phone",
+    "quantityAvailable": 1228
+  },
+  {
+    "id": "87",
+    "productName": "Apple Phone-492",
+    "productDescription": "Bank professional true financial prevent product can remember be next poor foreign.",
+    "brandName": "Apple",
+    "price": 1070.99,
+    "category": "Phone",
+    "quantityAvailable": 632
+  },
+  {
+    "id": "88",
+    "productName": "OnePlus Phone-281",
+    "productDescription": "Meet adult final week game she court yourself choice fast small medical music.",
+    "brandName": "Apple",
+    "price": 1358.09,
+    "category": "Phone",
+    "quantityAvailable": 1435
+  },
+  {
+    "id": "89",
+    "productName": "Google Phone-805",
+    "productDescription": "Capital heavy class story side speak close join improve put down know expect security large move.",
+    "brandName": "Google",
+    "price": 1276.25,
+    "category": "Phone",
+    "quantityAvailable": 1215
+  },
+  {
+    "id": "90",
+    "productName": "Apple Phone-473",
+    "productDescription": "Question now key show sing me industry class current painting their appear.",
+    "brandName": "Xiaomi",
+    "price": 675.92,
+    "category": "Phone",
+    "quantityAvailable": 1369
+  },
+  {
+    "id": "91",
+    "productName": "Apple Phone-758",
+    "productDescription": "Represent middle by base civil last message store.",
+    "brandName": "Google",
+    "price": 1015.25,
+    "category": "Phone",
+    "quantityAvailable": 1722
+  },
+  {
+    "id": "92",
+    "productName": "Apple Phone-137",
+    "productDescription": "Us increase how hear history bank different five between research friend certainly.",
+    "brandName": "Apple",
+    "price": 1390.52,
+    "category": "Phone",
+    "quantityAvailable": 1096
+  },
+  {
+    "id": "93",
+    "productName": "Apple Phone-047",
+    "productDescription": "Serve light past town affect democratic change vote participant.",
+    "brandName": "Apple",
+    "price": 643.58,
+    "category": "Phone",
+    "quantityAvailable": 631
+  },
+  {
+    "id": "94",
+    "productName": "Samsung Phone-614",
+    "productDescription": "Feeling answer information soldier lead book toward others administration middle.",
+    "brandName": "Apple",
+    "price": 918.42,
+    "category": "Phone",
+    "quantityAvailable": 77
+  },
+  {
+    "id": "95",
+    "productName": "Google Phone-324",
+    "productDescription": "Ability good number cost property model guess well name skill medical after them.",
+    "brandName": "Xiaomi",
+    "price": 608.19,
+    "category": "Phone",
+    "quantityAvailable": 1578
+  },
+  {
+    "id": "96",
+    "productName": "Google Phone-065",
+    "productDescription": "Section ground attack drop price billion old series card good full.",
+    "brandName": "OnePlus",
+    "price": 1067.05,
+    "category": "Phone",
+    "quantityAvailable": 472
+  },
+  {
+    "id": "97",
+    "productName": "Google Phone-277",
+    "productDescription": "Consider care respond want already cut social though firm financial huge spring list already positive experience.",
+    "brandName": "Xiaomi",
+    "price": 597.49,
+    "category": "Phone",
+    "quantityAvailable": 1576
+  },
+  {
+    "id": "98",
+    "productName": "OnePlus Phone-054",
+    "productDescription": "Son join hundred keep what fund cost reality happen.",
+    "brandName": "Apple",
+    "price": 1484.47,
+    "category": "Phone",
+    "quantityAvailable": 1506
+  },
+  {
+    "id": "99",
+    "productName": "Xiaomi Phone-841",
+    "productDescription": "Bad own state nation fly bag produce fill owner international ready goal amount.",
+    "brandName": "Xiaomi",
+    "price": 1035.78,
+    "category": "Phone",
+    "quantityAvailable": 393
+  },
+  {
+    "id": "100",
+    "productName": "OnePlus Phone-596",
+    "productDescription": "Police social arm provide image message seek civil all support question.",
+    "brandName": "Xiaomi",
+    "price": 311.64,
+    "category": "Phone",
+    "quantityAvailable": 331
+  }
+]
