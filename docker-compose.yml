@@ -5,7 +5,6 @@ networks:
     driver: bridge
 
 services:
-
   mongo:
     image: mongo
     container_name: mongo-dev
@@ -13,7 +12,14 @@ services:
       - app-network
     ports:
       - "27017:27017"
-    restart: unless-stopped
+    healthcheck:
+      test: >
+        bash -c "echo 'db.runCommand({ ping: 1 }).ok' |
+                  mongosh localhost:27017/admin --quiet | grep 1"
+      start_period: 20s
+      interval: 10s
+      timeout: 5s
+      retries: 3
 
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.12.2
@@ -26,7 +32,12 @@ services:
       - discovery.type=single-node
       - xpack.security.enabled=false
       - ES_JAVA_OPTS=-Xms4g -Xmx4g
-    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl ‑fs http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=10s || exit 1"]
+      start_period: 20s
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   kibana:
     image: docker.elastic.co/kibana/kibana:8.12.2
@@ -37,7 +48,16 @@ services:
       - "5601:5601"
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch-dev:9200
-    restart: unless-stopped
+      - SERVER_HOST=0.0.0.0
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s -I http://localhost:5601 | grep -q 'HTTP/1.1 302' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
 
   kafka:
     image: bitnami/kafka:latest
@@ -58,7 +78,13 @@ services:
       - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=INTERNAL:PLAINTEXT,CONTROLLER:PLAINTEXT,EXTERNAL:PLAINTEXT
       - KAFKA_CFG_INTER_BROKER_LISTENER_NAME=INTERNAL
       - KAFKA_CFG_ADVERTISED_LISTENERS=INTERNAL://kafka-kraft:29092,EXTERNAL://localhost:9094
-    restart: unless-stopped
+    healthcheck:
+      test: >
+        bash -c "timeout 5 bash -c 'echo > /dev/tcp/localhost/29092' || exit 1"
+      start_period: 60s
+      interval: 15s
+      timeout: 10s
+      retries: 5
 
   kafka-connect:
     image: confluentinc/cp-kafka-connect:7.5.0
@@ -67,6 +93,9 @@ services:
       - app-network
     ports:
       - "8083:8083"
+    depends_on:
+      kafka:
+        condition: service_healthy
     environment:
       CONNECT_BOOTSTRAP_SERVERS: kafka-kraft:29092
       CONNECT_GROUP_ID: connect-cluster
@@ -81,12 +110,22 @@ services:
       CONNECT_VALUE_CONVERTER_SCHEMAS_ENABLE: "false"
       CONNECT_REST_ADVERTISED_HOST_NAME: kafka-connect
       CONNECT_PLUGIN_PATH: /usr/share/confluent-hub-components
+    
+    volumes:
+      - ./scripts:/scripts
     command: >
       bash -c "
         confluent-hub install --no-prompt confluentinc/kafka-connect-elasticsearch:14.0.0 &&
-        /etc/confluent/docker/run
+        /etc/confluent/docker/run &
+
+        echo 'Waiting for Kafka Connect REST API…'
+        until curl -s http://localhost:8083/connectors; do sleep 5; done
+
+        echo 'Registering Elasticsearch sink connector…'
+        curl -X POST http://localhost:8083/connectors -H \"Content-Type: application/json\" --data @/scripts/create-es-sink.json
+
+        sleep infinity
       "
-    restart: unless-stopped
 
   productsearch:
     image: productsearch
@@ -97,6 +136,14 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - kafka
-      - mongo
-    restart: unless-stopped
+      mongo:
+        condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+      kibana:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
+      
+    environment:
+      SPRING_PROFILES_ACTIVE: "docker"

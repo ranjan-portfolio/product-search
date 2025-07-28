@@ -4,7 +4,7 @@ mvn clean package -D skipTests
 
 docker build . -t productsearch
 
-docker run -d -p 8080:8080 --network app-network productsearch
+
 
 
 docker run -d --name elasticsearch-dev \
@@ -95,7 +95,7 @@ curl -X POST http://localhost:8083/connectors \
 Deleting connector
 curl -X DELETE http://localhost:8083/connectors/elasticsearch-sink
 
-docker run -p 8080:8080 --name productsearch productsearch
+docker run --name productsearch -d -p 8080:8080 --network app-network -e spring.profiles.active=docker productsearch
 
 docker container prune -f
 
