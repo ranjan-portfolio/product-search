@@ -4,6 +4,10 @@ import java.time.Instant;
 import java.util.Optional;
 
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -11,10 +15,12 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ranjan.productsearch.dto.ProductDTO;
 import com.ranjan.productsearch.entity.OutboxEntity;
+import com.ranjan.productsearch.entity.ProductElasticSearch;
 import com.ranjan.productsearch.entity.ProductEntity;
 import com.ranjan.productsearch.exception.ProductNotFoundException;
 import com.ranjan.productsearch.repository.OutboxRepository;
 import com.ranjan.productsearch.repository.ProductRepository;
+import com.ranjan.productsearch.repository.ProductSearchRepository;
 import com.ranjan.productsearch.service.ProductService;
 
 import lombok.RequiredArgsConstructor;
@@ -27,6 +33,7 @@ public class ProductServiceImpl implements ProductService{
     private final ProductRepository productRepository;
     private final OutboxRepository outboxRepository;
     private final ObjectMapper objectMapper;
+    private final ProductSearchRepository searchRepository;
 
     @Override
     @Transactional
@@ -128,6 +135,27 @@ public class ProductServiceImpl implements ProductService{
         productDTO.setPrice(entity.getPrice());
         productDTO.setQuantityAvailable(entity.getQuantityAvailable());
         return productDTO;
+    }
+
+     private ProductDTO convertProductSearchEntitytoDTO(ProductElasticSearch entity){
+        ProductDTO productDTO=new ProductDTO();
+        productDTO.setId(entity.getId());
+        productDTO.setProductName(entity.getProductName());
+        productDTO.setProductDescription(entity.getProductDescription());
+        productDTO.setBrandName(entity.getBrandName());
+        productDTO.setCategory(entity.getCategory());
+        productDTO.setPrice(entity.getPrice());
+        productDTO.setQuantityAvailable(entity.getQuantityAvailable());
+        return productDTO;
+    }
+
+    @Override
+    public Page<ProductDTO> search(String query, int pageNum, int size, String sortBy, String orderBy) {
+            Sort sort=Sort.by(Sort.Direction.fromString(orderBy),sortBy);
+            Pageable page=PageRequest.of(pageNum, size,sort);
+            Page<ProductElasticSearch> results=searchRepository.getProducts(query, page);
+            Page<ProductDTO> searchResult=results.map(this::convertProductSearchEntitytoDTO);
+            return searchResult;
     }
     
 }

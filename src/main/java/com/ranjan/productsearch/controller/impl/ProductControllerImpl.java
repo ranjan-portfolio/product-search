@@ -1,9 +1,12 @@
 package com.ranjan.productsearch.controller.impl;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -26,6 +29,9 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
@@ -39,6 +45,28 @@ public class ProductControllerImpl implements ProductController{
    
     private final ProductService productService;
     private final ObjectMapper objectMapper;
+
+    @GetMapping("/search")
+    @Operation(summary = "search product", description = "search prowered by elastic search")
+    @ApiResponses(value={
+        @ApiResponse(responseCode = "200",description = "search",content = @Content(mediaType = "application/json",
+            schema = @Schema(implementation = ProductDTO.class))),
+         @ApiResponse(responseCode = "404",description = "Product not found",content = @Content(mediaType = "application/json",
+            schema = @Schema(implementation = ErrorDTO.class))),
+        @ApiResponse(responseCode = "400",description = "Bad Request",content = @Content(mediaType = "application/json",
+            schema = @Schema(implementation = ErrorDTO.class))),
+        @ApiResponse(responseCode = "500",description = "Internal Server Error",content = @Content(mediaType = "application/json",
+            schema = @Schema(implementation = ErrorDTO.class)))
+    })
+    public ResponseEntity<Page<ProductDTO>> search(
+    @RequestParam @NotBlank String query,
+    @RequestParam @Min(0) int page,
+    @RequestParam @Min(1) int size,
+    @RequestParam(defaultValue="price") @Pattern(regexp = "^(price|productName|brandName)$") String sortBy,
+    @RequestParam(defaultValue="productDescription") @Pattern(regexp = "^(price|productName|brandName)$") String order) {
+     Page<ProductDTO> productResponse=productService.search(query, page, size, sortBy, order);
+     return ResponseEntity.ok(productResponse);
+}
 
     @Override
     @PostMapping("/insert")
