@@ -63,7 +63,7 @@ public class ProductControllerImpl implements ProductController{
     @RequestParam @Min(0) int page,
     @RequestParam @Min(1) int size,
     @RequestParam(defaultValue="price") @Pattern(regexp = "^(price|productName|brandName)$") String sortBy,
-    @RequestParam(defaultValue="productDescription") @Pattern(regexp = "^(price|productName|brandName)$") String order) {
+    @RequestParam(defaultValue="desc") @Pattern(regexp = "^(desc|asc)$") String order) {
      Page<ProductDTO> productResponse=productService.search(query, page, size, sortBy, order);
      return ResponseEntity.ok(productResponse);
 }
@@ -121,7 +121,7 @@ public class ProductControllerImpl implements ProductController{
         @ApiResponse(responseCode = "500",description = "Internal Server Error",content = @Content(mediaType = "application/json",
             schema = @Schema(implementation = ErrorDTO.class)))
     })
-    public ResponseEntity<String> deleteProduct(@RequestParam("id")String id) throws ProductNotFoundException,JsonProcessingException {
+    public ResponseEntity<String> deleteProduct(@NotBlank @RequestParam("id")String id) throws ProductNotFoundException,JsonProcessingException {
         log.info("Inside delete product");
         String message= productService.deleteProduct(id);
         log.debug("Deleted status is"+message);

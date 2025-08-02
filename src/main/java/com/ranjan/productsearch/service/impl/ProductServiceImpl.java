@@ -40,7 +40,7 @@ public class ProductServiceImpl implements ProductService{
     public ProductDTO insertProduct(ProductDTO productDTO) throws JsonProcessingException {
         
             ProductEntity entity=convertProductDTOToEntity(productDTO);
-            ProductEntity savedEntity=productRepository.save(entity);
+            ProductEntity savedEntity=productRepository.insert(entity);
             OutboxEntity event=OutboxEntity.builder()
                                 .aggregateType("Product")
                                 .aggregateId(savedEntity.getId())
@@ -49,7 +49,7 @@ public class ProductServiceImpl implements ProductService{
                                 .timestamp(Instant.now())
                                 .status(OutboxEntity.EventStatus.PENDING)
                                 .build();
-           outboxRepository.save(event);
+           outboxRepository.insert(event);
            ProductDTO dto=convertProductEntitytoDTO(savedEntity);
 
         
