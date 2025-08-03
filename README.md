@@ -1,4 +1,5 @@
-<img width="691" height="400" alt="productsearch drawio" src="https://github.com/user-attachments/assets/782a7c53-4dbd-4dcc-8ea9-53e8f2699e41" />
+<img width="693" height="661" alt="productsearch" src="https://github.com/user-attachments/assets/6ac8ba26-34dd-4b16-ad82-88b873036fb8" />
+
 
 # ⚙ ProductSearch
 
